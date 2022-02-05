@@ -19,15 +19,20 @@ function generateEmailCode() {
 
     let templateCode = input1+profileName.value+input2+profileId.value+input3+profileId2.value+input4;
 
+    combiner.setAttribute("type", "text");
+    combiner.style.position = "absolute";
     combiner.value = templateCode;
 
-    /* Select the text field */
     combiner.select();
-    combiner.setSelectionRange(0, 9999999); /* For mobile devices */
+    combiner.setSelectionRange(0, 9999999);
 
-    /* Copy the text inside the text field */
     navigator.clipboard.writeText(combiner.value);
 
-    /* Alert the copied text */
-    alert("Template was copied!");
+    console.log("Template was copied!");
+    let status = document.getElementById("status");
+    status.style.visibility = "visible";
+    combiner.setAttribute("type", "hidden");
+    setTimeout(function() {
+        status.style.visibility = "hidden";
+    }, 2000);
 };
