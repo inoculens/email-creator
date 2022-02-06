@@ -31,7 +31,27 @@ function generateEmailCode() {
     console.log("Template was copied!");
     let status = document.getElementById("status");
     status.style.visibility = "visible";
+    status.innerHTML = "Email generated!";
     combiner.setAttribute("type", "hidden");
+    setTimeout(function() {
+        status.style.visibility = "hidden";
+    }, 2000);
+};
+
+function copySubject() {
+    let subject = document.getElementById("subject");
+    let status = document.getElementById("status");
+
+    subject.setAttribute("type", "visible");
+    subject.select();
+    subject.setSelectionRange(0, 9999999);
+
+    navigator.clipboard.writeText(subject.value);
+    subject.setAttribute("type", "hidden");
+    console.log("Subject was copied!");
+
+    status.style.visibility = "visible";
+    status.innerHTML = "Subject copied!";
     setTimeout(function() {
         status.style.visibility = "hidden";
     }, 2000);

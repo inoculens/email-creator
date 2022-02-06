@@ -38,6 +38,14 @@ input[type=text]:focus {
     color: green;
 }
 
+.generator {
+    padding-bottom: 20px;
+}
+
+.subject {
+    padding-bottom: 40px;
+}
+
 button {
     font-family: 'Poppins', sans-serif;
     background-color: #616161;

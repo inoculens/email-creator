@@ -34,6 +34,7 @@
 
         <!-- <p>Combiner</p> -->
         <input type="hidden" id="combiner" value="">
+        <input type="hidden" id="subject" value="Your media files are now available for you.">
 
         <div class="title">
             <h1>Email Creator</h1>
@@ -43,10 +44,13 @@
             <input type="text" id="inputProfileName" value="">
             <p>Client ID</p>
             <input type="text" id="inputProfileId" value="">
-            <p id="status">Email Generated!</p>
+            <p id="status">Email generated!</p>
         </div>
         <div class="generator">
             <button onclick="generateEmailCode()">Generate</button>
+        </div>
+        <div class="subject">
+            <button onclick="copySubject()">Copy Subject</button>
         </div>
     </body>
 </html>
