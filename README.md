@@ -3,6 +3,10 @@
 <p align="center">This app generates the code of an email template with custom variables.
 
 ## Change Log
+<b>Release 〢 1.0.0 (mk2) | build 1</b>
+
+- Adjusted the README.md file.
+
 <b>Release 〢 1.0.0 (mk2)</b>
 
 - Created an improved code splitting system based on Javascript variables rather than HTML inputs.
@@ -11,7 +15,7 @@
 - The code is now cleaner and easier to understand.
 - Updated the versioning system to follow the [iVer concept](https://github.com/frontfacer/iVer).
 
-<b>Release 〢 1.0.1 (mk1)</b><br>
+<b>Release 〢 1.0.1 (mk1)</b>
 
 - Updated the files to reflect the new name.
 - Documented the change log inside the README.md file.
@@ -25,5 +29,4 @@
 **This repository follows the [iVer](https://github.com/frontfacer/iVer) versioning format.*
 
 #
-<p align="center">© 2022 〣 INOCULENS MEDIA</p>
-<p align="center">www.inoculens.com</p>
+<p align="center">© 2022 〣 INOCULENS MEDIA<br>www.inoculens.com</p>
