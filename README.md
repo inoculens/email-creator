@@ -3,6 +3,10 @@
 <p align="center">This app generates the code of an email template with custom variables.
 
 ## Change Log
+<b>Release 〢 1.0.0 (mk2) | build 2</b>
+
+- Changed the structure of the app.
+
 <b>Release 〢 1.0.0 (mk2) | build 1</b>
 
 - Adjusted the README.md file.
