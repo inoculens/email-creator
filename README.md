@@ -3,22 +3,6 @@
 <p align="center">This app generates the code of an email template with custom variables.
 
 ## Change Log
-<b>Release 〢 1.0.0 (mk2) | build 2</b>
-
-- Changed the structure of the app.
-
-<b>Release 〢 1.0.0 (mk2) | build 1</b>
-
-- Adjusted the README.md file.
-
-<b>Release 〢 1.0.0 (mk2)</b>
-
-- Created an improved code splitting system based on Javascript variables rather than HTML inputs.
-- Added support for romanian.
-- Added support for formal email formatting in romanian.
-- The code is now cleaner and easier to understand.
-- Updated the versioning system to follow the [iVer concept](https://github.com/frontfacer/iVer).
-
 <b>Release 〢 1.0.1 (mk1)</b>
 
 - Updated the files to reflect the new name.
