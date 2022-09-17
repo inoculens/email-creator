@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- CONFIG -->
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- SEO -->
+        <title>INCOULENS MEDIA - Email Creator</title>
+
+        <!-- FAV ICON -->
+        <link rel="icon" type="image/png" href="https://static.inoculens.com/logo">
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        
+        <!-- JS -->
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <div class="identification" id="identification">
+            <h1>SELECT TYPE OF EMAIL</h1>
+            <div class="types">
+                <p><a href="?lang=en">English</a></p>
+                <p><a href="?lang=ro&type=normal">Romanian | Normal</a></p>
+                <p><a href="?lang=ro&type=formal&gender=M">Romanian | Formal - M</a></p>
+                <p><a href="?lang=ro&type=formal&gender=F">Romanian | Formal - F</a></p>
+            </div>
+        </div>
+        <div class="creator" id="creator">
+            <div class="title">
+                <h1>Email Creator</h1>
+            </div>
+            <div class="inputs">
+                <p>Client Name</p>
+                <input type="text" id="clientName" value="">
+                <p>Client ID</p>
+                <input type="text" id="clientID" value="">
+                <p id="status">Email generated!</p>
+            </div>
+            <div class="generator">
+                <button onclick="generateEmail()">Generate</button>
+            </div>
+            <input type="text" id="combiner" value="" hidden readonly>
+            <div class="extras">
+                <button id="copySubject" onclick="instructionsExtras()">Copy Subject</button>
+                <button id="copyClientID" onclick="instructionsExtras()">Copy Client ID</button>
+            </div>
+        </div>
+    </body>
+</html>
