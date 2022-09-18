@@ -1,36 +1,26 @@
 # <p align="center"><b>INOCULENS MEDIA</b> - Email Creator
 
-<p align="center">This app generates the code of an email template with custom variables.
+This tool generates the code of an email template with custom variables.<br/>
+The generated code will be automatically copied in clipboard after the "Generate" button is pressed.<br/>
+You can download the project and change the variables to your needs.<br/>
 
-## Change Log
-<b>Release 〢 1.0.0 (mk2) | build 2</b>
+## Change Log<br>
+<div style="background-color: rgb(50, 50, 50);">
+<b>Release 〢 1.0.1</b><br>
 
-- Changed the structure of the app.
-
-<b>Release 〢 1.0.0 (mk2) | build 1</b>
-
-- Adjusted the README.md file.
-
-<b>Release 〢 1.0.0 (mk2)</b>
-
-- Created an improved code splitting system based on Javascript variables rather than HTML inputs.
-- Added support for romanian.
-- Added support for formal email formatting in romanian.
-- The code is now cleaner and easier to understand.
-- Updated the versioning system to follow the [iVer concept](https://github.com/frontfacer/iVer).
-
-<b>Release 〢 1.0.1 (mk1)</b>
-
+```
 - Updated the files to reflect the new name.
 - Documented the change log inside the README.md file.
+```
+</div>
 
-<b>Release 〢 1.0.0 (mk1)</b>
+<div style="background-color: rgb(50, 50, 50);">
+<b>Release 〢 1.0.0</b><br>
 
+```
 - The Email Creator can successfully generate an email based on the given variables.
-
-<br>
-
-**This repository follows the [iVer](https://github.com/frontfacer/iVer) versioning format.*
+```
+</div>
 
 #
-<p align="center">© 2022 〣 INOCULENS MEDIA<br>www.inoculens.com</p>
+<p align="center">© 2022 〣 INOCULENS MEDIA<br/>www.inoculens.com<br>

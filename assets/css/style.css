@@ -1,21 +1,5 @@
 @import url('https://gocdn.frontfacer.com/fonts/global.css');
 
-a {
-    color: black;
-    text-decoration: none;
-}
-
-/* Identification */
-
-.identification {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.types {
-    font-family: 'Poppins', sans-serif;
-}
-
-/* Creator */
 body {
     text-align: center;
 }
