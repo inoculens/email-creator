@@ -12,7 +12,8 @@ window.onload = function() {
         document.getElementById("creator").style.display = 'none';
     }
     else {
-        document.getElementById("identification").style.display = 'none';
+        document.getElementById("launcher").style.display = 'none';
+        document.querySelector(".content .creator .instructions").style.padding = "70px 0px 30px 0px";
     }
 }
 
@@ -44,7 +45,9 @@ function generateEmail() {
     
     // languageIV
     
-    let emailCodeVII = '</p></td>                       </tr>                       <tr>                        <td align="center" style="padding:20px;Margin:0;font-size:0">                         <table border="0" width="100%" height="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">                           <tr>                            <td style="padding:0;Margin:0;border-bottom:2px solid #cccccc;background:unset;height:1px;width:100%;margin:0px"></td>                           </tr>                         </table></td>                       </tr>                       <tr>                        <td align="center" style="padding:0;Margin:0"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:verdana, geneva, sans-serif;line-height:27px;color:#333333;font-size:18px"><strong>INOCULENS</strong> MEDIA</p></td>                       </tr>                       <tr>                        <td align="center" style="padding:0;Margin:0"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:tahoma, verdana, segoe, sans-serif;line-height:15px;color:#333333;font-size:10px"><a target="_blank" href="mailto:create@inoculens.com" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:none;color:#999999;font-size:10px;font-family:tahoma, verdana, segoe, sans-serif">create@inoculens.com</a></p></td>                       </tr>                       <tr>                        <td align="center" style="padding:0;Margin:0;padding-top:15px;font-size:0">                         <table cellpadding="0" cellspacing="0" class="es-table-not-adapt es-social" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">                           <tr>                            <td align="center" valign="top" style="padding:0;Margin:0;padding-right:15px"><a target="_blank" href="https://src.inoculens.com/0tT" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:none;color:#2CB543;font-size:14px"><img title="Facebook" src="https://lggkca.stripocdn.email/content/assets/img/social-icons/logo-black/facebook-logo-black.png" alt="Fb" height="24" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"></a></td>                            <td align="center" valign="top" style="padding:0;Margin:0;padding-right:15px"><a target="_blank" href="https://src.inoculens.com/1yT" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:none;color:#2CB543;font-size:14px"><img title="Instagram" src="https://lggkca.stripocdn.email/content/assets/img/social-icons/logo-black/instagram-logo-black.png" alt="Inst" height="24" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"></a></td>                            <td align="center" valign="top" style="padding:0;Margin:0"><a target="_blank" href="https://src.inoculens.com/Vun" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:none;color:#2CB543;font-size:14px"><img title="Youtube" src="https://lggkca.stripocdn.email/content/assets/img/social-icons/logo-black/youtube-logo-black.png" alt="Yt" height="24" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"></a></td>                           </tr>                         </table></td>                       </tr>                     </table></td>                   </tr>                 </table></td>               </tr>             </table></td>           </tr>         </table>         <table cellpadding="0" cellspacing="0" class="es-content" align="center" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%">           <tr>            <td align="center" style="padding:0;Margin:0">             <table bgcolor="#ffffff" class="es-content-body" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:#FFFFFF;width:400px">               <tr>                <td align="left" bgcolor="#efefef" style="padding:0;Margin:0;padding-top:15px;padding-bottom:15px;background-color:#efefef">                 <table cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">                   <tr>                    <td align="center" valign="top" style="padding:0;Margin:0;width:400px">                     <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">                       <tr>                        <td align="center" style="padding:0;Margin:0"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, "helvetica neue", helvetica, sans-serif;line-height:15px;color:#666666;font-size:10px">©2022. All rights reserved.</p></td>                       </tr>                     </table></td>                   </tr>                 </table></td>               </tr>             </table></td>           </tr>         </table></td>       </tr>     </table>    </div>    </body> </html>';
+    let emailCodeVII = '</p></td>                       </tr>                       <tr>                        <td align="center" style="padding:20px;Margin:0;font-size:0">                         <table border="0" width="100%" height="100%" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">                           <tr>                            <td style="padding:0;Margin:0;border-bottom:2px solid #cccccc;background:unset;height:1px;width:100%;margin:0px"></td>                           </tr>                         </table></td>                       </tr>                       <tr>                        <td align="center" style="padding:0;Margin:0"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:verdana, geneva, sans-serif;line-height:27px;color:#333333;font-size:18px"><strong>INOCULENS</strong> MEDIA</p></td>                       </tr>                       <tr>                        <td align="center" style="padding:0;Margin:0"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:tahoma, verdana, segoe, sans-serif;line-height:15px;color:#333333;font-size:10px"><a target="_blank" href="mailto:create@inoculens.com" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:none;color:#999999;font-size:10px;font-family:tahoma, verdana, segoe, sans-serif">create@inoculens.com</a></p></td>                       </tr>                       <tr>                        <td align="center" style="padding:0;Margin:0;padding-top:15px;font-size:0">                         <table cellpadding="0" cellspacing="0" class="es-table-not-adapt es-social" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">                           <tr>                            <td align="center" valign="top" style="padding:0;Margin:0;padding-right:15px"><a target="_blank" href="https://src.inoculens.com/0tT" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:none;color:#2CB543;font-size:14px"><img title="Facebook" src="https://lggkca.stripocdn.email/content/assets/img/social-icons/logo-black/facebook-logo-black.png" alt="Fb" height="24" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"></a></td>                            <td align="center" valign="top" style="padding:0;Margin:0;padding-right:15px"><a target="_blank" href="https://src.inoculens.com/1yT" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:none;color:#2CB543;font-size:14px"><img title="Instagram" src="https://lggkca.stripocdn.email/content/assets/img/social-icons/logo-black/instagram-logo-black.png" alt="Inst" height="24" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"></a></td>                            <td align="center" valign="top" style="padding:0;Margin:0"><a target="_blank" href="https://src.inoculens.com/Vun" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:none;color:#2CB543;font-size:14px"><img title="Youtube" src="https://lggkca.stripocdn.email/content/assets/img/social-icons/logo-black/youtube-logo-black.png" alt="Yt" height="24" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"></a></td>                           </tr>                         </table></td>                       </tr>                     </table></td>                   </tr>                 </table></td>               </tr>             </table></td>           </tr>         </table>         <table cellpadding="0" cellspacing="0" class="es-content" align="center" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%">           <tr>            <td align="center" style="padding:0;Margin:0">             <table bgcolor="#ffffff" class="es-content-body" align="center" cellpadding="0" cellspacing="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:#FFFFFF;width:400px">               <tr>                <td align="left" bgcolor="#efefef" style="padding:0;Margin:0;padding-top:15px;padding-bottom:15px;background-color:#efefef">                 <table cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">                   <tr>                    <td align="center" valign="top" style="padding:0;Margin:0;width:400px">                     <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">                       <tr>                        <td align="center" style="padding:0;Margin:0"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, "helvetica neue", helvetica, sans-serif;line-height:15px;color:#666666;font-size:10px">©2022 - '
+    
+    let emailCodeVIII = '. All rights reserved.</p></td>                       </tr>                     </table></td>                   </tr>                 </table></td>               </tr>             </table></td>           </tr>         </table></td>       </tr>     </table>    </div>    </body> </html>';
     
     // Client Details
     let clientName = document.getElementById("clientName").value;
@@ -71,11 +74,14 @@ function generateEmail() {
     let ROfMIV = 'sau făcând click direct pe el.';
     let ROfFIV = 'sau făcând click direct pe el.';
 
+    // The Year
+    let year = new Date().getFullYear();
+
     // Code Generator
-    let templateCodeEN = emailCodeI+enI+clientName+emailCodeII+enII+emailCodeIII+clientID+emailCodeIV+clientID+emailCodeV+enIII+emailCodeVI+enIV+emailCodeVII;
-    let templateCodeRO = emailCodeI+ROI+clientName+emailCodeII+ROII+emailCodeIII+clientID+emailCodeIV+clientID+emailCodeV+ROIII+emailCodeVI+ROIV+emailCodeVII;
-    let templateCodeROfM = emailCodeI+ROfMI+clientName+emailCodeII+ROfMII+emailCodeIII+clientID+emailCodeIV+clientID+emailCodeV+ROfMIII+emailCodeVI+ROfMIV+emailCodeVII;
-    let templateCodeROfF = emailCodeI+ROfFI+clientName+emailCodeII+ROfFII+emailCodeIII+clientID+emailCodeIV+clientID+emailCodeV+ROfFIII+emailCodeVI+ROfFIV+emailCodeVII;
+    let templateCodeEN = emailCodeI+enI+clientName+emailCodeII+enII+emailCodeIII+clientID+emailCodeIV+clientID+emailCodeV+enIII+emailCodeVI+enIV+emailCodeVII+year+emailCodeVIII;
+    let templateCodeRO = emailCodeI+ROI+clientName+emailCodeII+ROII+emailCodeIII+clientID+emailCodeIV+clientID+emailCodeV+ROIII+emailCodeVI+ROIV+emailCodeVII+year+emailCodeVIII;
+    let templateCodeROfM = emailCodeI+ROfMI+clientName+emailCodeII+ROfMII+emailCodeIII+clientID+emailCodeIV+clientID+emailCodeV+ROfMIII+emailCodeVI+ROfMIV+emailCodeVII+year+emailCodeVIII;
+    let templateCodeROfF = emailCodeI+ROfFI+clientName+emailCodeII+ROfFII+emailCodeIII+clientID+emailCodeIV+clientID+emailCodeV+ROfFIII+emailCodeVI+ROfFIV+emailCodeVII+year+emailCodeVIII;
         
     // The Combiner
     let combiner = document.getElementById("combiner");
@@ -84,6 +90,11 @@ function generateEmail() {
     if (query.includes('lang=en')) {
         combiner.value = templateCodeEN;
         document.getElementById("copySubject").onclick = function() {
+            document.getElementById("status").innerHTML = "Copied to clipboard!";
+            document.getElementById("status").style.visibility = "visible";
+            setTimeout(function() {
+                document.getElementById("status").style.visibility = "hidden";
+            }, 2000);
             return navigator.clipboard.writeText('Your media files are now available for you.');
         }
     }
@@ -91,6 +102,11 @@ function generateEmail() {
         if (query.includes('type=normal')) {
             combiner.value = templateCodeRO;
             document.getElementById("copySubject").onclick = function() {
+                document.getElementById("status").innerHTML = "Copied to clipboard!";
+                document.getElementById("status").style.visibility = "visible";
+                setTimeout(function() {
+                    document.getElementById("status").style.visibility = "hidden";
+                }, 2000);
                 return navigator.clipboard.writeText('Fișierele tale media sunt disponibile pe platformă.');
             }
         }
@@ -99,12 +115,22 @@ function generateEmail() {
             if (query.includes('gender=M')) {
                 combiner.value = templateCodeROfM;
                 document.getElementById("copySubject").onclick = function() {
+                    document.getElementById("status").innerHTML = "Copied to clipboard!";
+                    document.getElementById("status").style.visibility = "visible";
+                    setTimeout(function() {
+                        document.getElementById("status").style.visibility = "hidden";
+                    }, 2000);
                     return navigator.clipboard.writeText(subject);
                 }
             }
             else if (query.includes('gender=F')) {
                 combiner.value = templateCodeROfF;
                 document.getElementById("copySubject").onclick = function() {
+                    document.getElementById("status").innerHTML = "Copied to clipboard!";
+                    document.getElementById("status").style.visibility = "visible";
+                    setTimeout(function() {
+                        document.getElementById("status").style.visibility = "hidden";
+                    }, 2000);
                     return navigator.clipboard.writeText(subject);
                 }
             }
@@ -127,6 +153,11 @@ function generateEmail() {
 
     // Copy Process for ClientID
     document.getElementById("copyClientID").onclick = function copyClientID() {
+        document.getElementById("status").innerHTML = "Copied to clipboard!";
+        document.getElementById("status").style.visibility = "visible";
+        setTimeout(function() {
+            document.getElementById("status").style.visibility = "hidden";
+        }, 2000);
         return navigator.clipboard.writeText(clientID);
     }
 }
@@ -136,4 +167,7 @@ function instructionsExtras() {
     document.getElementById("status").style.visibility = "visible";
     document.getElementById("status").style.color = "red";
     document.getElementById("status").innerHTML = "Generate email first.";
+    setTimeout(function() {
+        document.getElementById("status").style.visibility = "hidden";
+    }, 2000);
 }

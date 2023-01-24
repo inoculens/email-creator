@@ -1,8 +1,19 @@
-# <p align="center"><b>INOCULENS MEDIA</b> - Email Creator
+<p align="center"><img src="https://static.inoculens.com/logo" width="100" height="100" />
 
-<p align="center">This app generates the code of an email template with custom variables.
+# <p align="center"><b>INOCULENS</b>
 
-## Change Log
+<p align="center"><b>Email Creator</b><br><br>
+This app generates the code of an email template with custom variables.<br><br><br>
+
+## <b>Change Log:</b><br><br>
+<b>Release 〢 2.0.0 (mk2)</b>
+
+- Added a new template: Content Renew
+- Now the email is generated with the current year in the footer.
+- Redesigned the look of the app to represent the style guide of the brand.
+- A new title was specified for the New Profile creator.
+- Restructured the code.
+
 <b>Release 〢 1.0.0 (mk2) | build 2</b>
 
 - Changed the structure of the app.
@@ -33,4 +44,4 @@
 **This repository follows the [iVer](https://github.com/frontfacer/iVer) versioning format.*
 
 #
-<p align="center">© 2022 〣 INOCULENS MEDIA<br>www.inoculens.com</p>
+<p align="center">© 2022 〣 INOCULENS<br>www.inoculens.com</p>
