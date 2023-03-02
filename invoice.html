@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- CONFIG -->
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- SEO -->
+        <title>Email Creator - Invoice</title>
+
+        <!-- FAV ICON -->
+        <link rel="icon" type="image/png" href="https://static.inoculens.com/logo">
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/global.css">
+        <link rel="stylesheet" href="css/invoice.css">
+        
+        <!-- JS -->
+        <script src="js/invoice.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>EMAIL CREATOR</h1>
+        </div>
+        <div class="content">
+            <div class="launcher" id="launcher">
+                <div class="instructions">
+                    <h1>SELECT TYPE OF EMAIL</h1>
+                </div>
+                <div class="options">
+                    <button onclick="window.location.href='?lang=en'">English</button>
+                    <button onclick="window.location.href='?lang=ro&type=normal'">Romanian | Normal</button>
+                    <button onclick="window.location.href='?lang=ro&type=formal&gender=M'">Romanian | Formal - M</button>
+                    <button onclick="window.location.href='?lang=ro&type=formal&gender=F'">Romanian | Formal - F</button>
+                </div>
+            </div>
+            <div class="creator" id="creator">
+                <div class="instructions">
+                    <h1>ENTER CLIENT DETAILS</h1>
+                </div>
+                <div class="inputs">
+                    <p>Client Name</p>
+                    <input type="text" id="clientName" value="">
+                    <p>Checkout ID</p>
+                    <input type="text" id="checkoutID" value="">
+                </div>
+                <div class="status">
+                    <a id="status">Email generated!</a>
+                </div>
+                <div class="generator">
+                    <div>
+                        <button onclick="generateEmail()">Generate</button>
+                    </div>
+                    <button id="copySubject" onclick="instructionsExtras()">Copy Subject</button>
+                    <button id="copyCheckoutLink" onclick="instructionsExtras()">Copy Invoice Link</button>
+                    <input type="text" id="combiner" value="" hidden readonly>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <a href="https://src.inoculens.com/riE" target="_blank">
+                <img src="https://static.inoculens.com/logo">
+            </a>
+        </footer>
+    </body>
+</html>

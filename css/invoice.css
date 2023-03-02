@@ -1,0 +1,33 @@
+.instructions {
+    padding-top: 8%;
+    font-size: 10px;
+}
+
+.inputs {
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+input[type=text] {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background-color: #eeeeee;
+    color: rgb(0, 0, 0);
+    border: none;
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    text-align: center;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+.status {
+    padding-bottom: 15px;
+    visibility: hidden;
+    color: green;
+    font-family: 'Poppins', sans-serif;
+}

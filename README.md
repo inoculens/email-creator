@@ -6,6 +6,10 @@
 This app generates the code of an email template with custom variables.<br><br><br>
 
 ## <b>Change Log:</b><br><br>
+<b>Release 〢 3.0.0 (mk2)</b>
+
+- Added a new template: Invoice
+
 <b>Release 〢 2.0.0 (mk2)</b>
 
 - Added a new template: Content Renew
