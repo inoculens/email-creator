@@ -6,6 +6,11 @@
 This app generates the code of an email template with custom variables.<br><br><br>
 
 ## <b>Change Log:</b><br><br>
+<b>Release 〢 3.1.0 (mk2)</b>
+
+- The current year is now being generated from the Invoice template as well.
+- Small adjustments were made to the structure of the code.
+
 <b>Release 〢 3.0.0 (mk2)</b>
 
 - Added a new template: Invoice
