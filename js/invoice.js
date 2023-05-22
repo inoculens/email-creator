@@ -67,7 +67,7 @@ function generateEmail() {
 
     // Client Details
     let clientName = document.getElementById("clientName").value;
-    let checkoutLink = 'https://finance.inoculens.com/checkout/' + contentID;
+    let checkoutLink = 'https://checkout.inoculens.com/' + contentID;
 
     // Client Language
     let enI = 'Dear ';

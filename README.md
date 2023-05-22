@@ -6,6 +6,11 @@
 This app generates the code of an email template with custom variables.<br><br><br>
 
 ## <b>Change Log:</b><br><br>
+<b>Release 〢 3.2.1 (mk2)</b>
+
+- Adjusted the root link for the CHECKOUT button in the Invoice template.
+- Adjusted the README.md file to represent INOCULENS legal starting date.
+
 <b>Release 〢 3.2.0 (mk2)</b>
 
 - Redesigned the Invoice template and added new fields.
@@ -57,4 +62,4 @@ This app generates the code of an email template with custom variables.<br><br><
 **This repository follows the [iVer](https://github.com/frontfacer/iVer) versioning format.*
 
 #
-<p align="center">© 2022 〣 INOCULENS<br>www.inoculens.com</p>
+<p align="center">© 2023 〣 INOCULENS<br>www.inoculens.com</p>
