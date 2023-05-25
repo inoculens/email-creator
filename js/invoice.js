@@ -116,7 +116,7 @@ function generateEmail() {
             setTimeout(function() {
                 document.getElementById("status").style.visibility = "hidden";
             }, 2000);
-            return navigator.clipboard.writeText('Your invoice is ready for you!');
+            return navigator.clipboard.writeText('Your invoice is ready!');
         }
     }
     else if (query.includes('lang=ro')) {

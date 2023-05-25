@@ -6,6 +6,10 @@
 This app generates the code of an email template with custom variables.<br><br><br>
 
 ## <b>Change Log:</b><br><br>
+<b>Release 〢 3.2.2 (mk2)</b>
+
+- Updated the English subject from Invoice template.
+
 <b>Release 〢 3.2.1 (mk2)</b>
 
 - Adjusted the root link for the CHECKOUT button in the Invoice template.
